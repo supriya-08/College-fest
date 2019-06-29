@@ -1,0 +1,36 @@
+body{
+	color: rgba(0,0,0,.5);
+	/*background-color: -webkit-linear-gradient(to right, red , yellow);*/
+}
+
+h1,h3 {
+	text-align: center;
+	color: orange;
+	font-family: fantasy, monospace,fantasy;
+	font-size: 3em;
+	box-shadow: 4px 4px 5px #888888;
+	-moz-box-shadow: 4px 4px 5px #88888;
+	border-bottom: 400px;
+	align-items: center;
+}
+h3{
+	font-size: 1.75em;
+	color: blue;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+img {
+	width: 375px;
+	height: 215px;
+	margin: 10px;
+	transition: all 1s;
+	padding:1px;
+    border:1px solid #021a40;
+
+}
+img:hover {
+	transform: scale(1.1);
+}

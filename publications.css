@@ -1,0 +1,31 @@
+h3 {
+ font-family:arial;
+  font-size: 15px;
+}
+h1,h2{
+
+color: navy;
+}
+
+body{
+
+background-color: silver;
+
+}
+#first{
+height: 200px;
+width: 300px;
+padding: 5px 10px;
+}
+#second{
+height: 200px;
+width: 300px;
+padding: 5px 20px;
+
+}
+
+#third{
+height: 200px;
+width: 300px;
+padding: 5px 10px;
+}

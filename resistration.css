@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+html,body{
+	font-family: 'Cardo', serif;
+	font-size: 16px;
+	background-color:rgba(220,211,211,0.8);
+}
+
+.container{
+	width: 100%;
+	font-size: 16px;
+	height: 100vh;
+	overflow-x: hidden;
+}
+
+.popup_text{
+	position: absolute;
+	top:10%;
+	left:20%;
+
+}
+
+h1{
+	margin-left: 35%;
+	font-size: 250%;
+}
+h3{
+	margin-left: 22%;
+	margin-bottom: 1%;
+}
+
+ul{
+	margin-left: 10%;
+}
+
+.boxed{
+	margin-left: 30%;
+	line-height: 130%;
+}

@@ -1,0 +1,79 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	width: 100%;
+    font-size: 18px;
+    height: 180vh;
+    color: white;
+    overflow-x: hidden;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("resources/background-2.jpg");
+    background-position: center;
+	overflow-x: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.home-1{
+	position: absolute;
+	top:15%;
+	
+	width: 100%;
+	height:100vh;
+	
+}
+
+#small-head{
+	margin-left: 16%;
+}
+
+h1{
+	font-size: 240%;
+	margin-left: 43%;
+	margin-top: 3%;
+	width: 200px;
+	border-bottom:2px solid hidden;
+	transition: border-bottom 0.2s;
+}
+h1:hover{
+	
+	border-bottom: 2px solid orange;;
+}
+.home{
+	position: absolute;
+	top:2%;
+	left:90%;
+	font-size: 180%;
+    text-decoration: none;
+    color: white;
+    box-shadow:0 4px 4px #efefef;
+
+}
+.home:hover{
+	transform: scale(1.1);
+}
+h2{
+	font-size: 190%;
+	margin-left: 17%;
+	margin-top: 3%;
+	line-height: 145%;
+}
+
+
+
+#con{
+	margin-left: 18%;
+}
+h3{
+	margin-left: 18%;
+}
+
+span{
+	margin-left: -10%;
+}
+
+.frame{
+	position: absolute;
+	top:10%;
+	left:50%;
+}
